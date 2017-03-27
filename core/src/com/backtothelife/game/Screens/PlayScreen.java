@@ -48,6 +48,7 @@ public class PlayScreen implements Screen {
     }
 
     public void handleInput(float dt) {
+        //input
         if(Gdx.input.isTouched())
             gamecam.position.x += 100*dt;
     }
